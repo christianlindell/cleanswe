@@ -1,11 +1,17 @@
 Package: cleanswe
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Title: Create standart compliant variable names in a data frame
+Version: 0.0.2.9000
+Authors@R: person("Christian", "Lindell", , "christian_lindell@yahoo.com", role = c("aut", "cre"))
+Maintainer: Christian Lindell <christian_lindell@yahoo.com>
+Description: Change variable names to snake case. Split fields 
+    that have both a code and a name to seperate varables 
+    (only for SCB data). Change å, ä, ö to aa, ae, oe, 
+License: MIT
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 6.0.1
+Imports: 
+    janitor,
+    dplyr,
+    tidyr
