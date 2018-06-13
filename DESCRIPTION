@@ -1,7 +1,7 @@
 Package: cleanswe
 Type: Package
 Title: Create standart compliant variable names in a data frame
-Version: 0.0.2.9000
+Version: 0.0.3.9000
 Authors@R: person("Christian", "Lindell", , "christian_lindell@yahoo.com", role = c("aut", "cre"))
 Maintainer: Christian Lindell <christian_lindell@yahoo.com>
 Description: Change variable names to snake case. Split fields 
