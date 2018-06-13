@@ -6,7 +6,7 @@ Authors@R: person("Christian", "Lindell", , "christian_lindell@yahoo.com", role 
 Maintainer: Christian Lindell <christian_lindell@yahoo.com>
 Description: Change variable names to snake case. Split fields 
     that have both a code and a name to seperate varables 
-    (only for SCB data). Change \u00e5, \u00e4, \u00f6 to aa, ae, oe, 
+    (only for SCB data). Change \\u00e5, \\u00e4, \\u00f6 to aa, ae, oe. 
 License: MIT
 Encoding: UTF-8
 LazyData: true
@@ -15,3 +15,4 @@ Imports:
     janitor (>= 1.0),
     dplyr (>= 0.7),
     tidyr (>= 0.7)
+    
